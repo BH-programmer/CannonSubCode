@@ -18,6 +18,7 @@ public final class Constants {
   }
 
   public static class CannonBatteryConstants {
+    public static final int kPCMCANID = 0;
     public static final double kShotOpeningDuration = 0.5; //Time (seconds) to open valves to fire a cannon
   }
 }
