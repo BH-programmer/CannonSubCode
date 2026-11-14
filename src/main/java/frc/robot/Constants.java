@@ -19,6 +19,17 @@ public final class Constants {
 
   public static class CannonBatteryConstants {
     public static final int kPCMCANID = 0;
-    public static final double kShotOpeningDuration = 0.5; //Time (seconds) to open valves to fire a cannon
+    public static final double kShotOpeningDuration = 0.5; //Time (seconds) to open valves to fire a cannon //TODO: fix placeholder value
+  }
+
+  public static class AngleAdjustmentConstants {
+    public static final boolean kMotorInverted = false; //Is the right motor inverted from the left //TODO: fix placeholder value
+
+    //Gearing on motors for angle adjustments
+    //TODO: fix placeholder values
+    public static final double kMotorGearRatio = 1; //Motor rotations : sprocket rotations
+    public static final double kChainRatio = 1; //Sprocket rotations : axle rotations
+    public static final double kTotalRatio = kMotorGearRatio * kChainRatio; //Motor rotations : axle rotations
+
   }
 }
